@@ -1,6 +1,6 @@
 {
     "builds": [{
-        "src": "carzSolutions/wsgi.py",
+        "src": "vehicleservicemanagement/wsgi.py",
         
         "use": "@vercel/python",
         "config": { "maxLambdaSize": "15mb" }
@@ -8,7 +8,7 @@
     "routes": [
         {
             "src": "/(.*)",
-            "dest": "carzSolutions/wsgi.py"
+            "dest": "vehicleservicemanagement/wsgi.py"
             
         }
     ]
