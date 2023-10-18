@@ -84,7 +84,7 @@ DATABASES = {
      'NAME': 'carzsolutiondb',
      'ENFORCE-SCHEMA':True,
      'CLIENT':{
-         'host':'mongodb+srv://husainshamshad68:<password>@mycluster.kyes0hz.mongodb.net/?retryWrites=true&w=majority',
+         'host':'mongodb+srv://husainshamshad68:husain1234@mycluster.kyes0hz.mongodb.net/?retryWrites=true&w=majority',
          'password':'husain1234',
          'username':'husainshamshad68',
          'authMechanism':'SCRAM-SHA-1'
